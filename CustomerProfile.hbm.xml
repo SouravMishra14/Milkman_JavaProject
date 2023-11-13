@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//-Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.beans">
+    <class name="CustomerProfile" table="customerprofile">
+        <id name="customerId" column="cId"/>
+        <property name="name"></property>
+        <property name="contact"></property>
+        <property name="email"></property>
+        <property name="city"></property>
+        <property name="address"></property> 
+        <property name="gender"></property>
+        <property name="dob"></property>
+        <property name="password"></property>
+    </class>
+</hibernate-mapping>
+
+

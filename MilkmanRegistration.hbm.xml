@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//-Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="hib.beans">
+    <class name="MilkmanRegistration" table="MilkmanReg">
+        <id name="milkmanId" column="MilkmanId"/>
+        <property name="name" column="Name"></property>
+        <property name="contact" column="Contact"></property>
+        <property name="city" column="City"></property>
+        <property name="area" column="Area"></property>
+        <property name="address" column="Address"></property> 
+    </class>
+</hibernate-mapping>
+
+
